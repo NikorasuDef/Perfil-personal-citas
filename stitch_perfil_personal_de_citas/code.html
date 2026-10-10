@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;min-height:100%;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: 'class', theme: { extend: { colors: { 'on-surface-variant': '#594040', 'on-secondary-fixed': '#2b0052', 'surface-container-highest': '#e9dfed', 'background': '#fff7ff', 'surface': '#fff7ff', 'surface-bright': '#fff7ff', 'primary-fixed-dim': '#ffb3b0', 'on-tertiary': '#ffffff', 'on-primary-fixed-variant': '#91061d', 'surface-dim': '#e1d7e5', 'on-background': '#1f1a24', 'on-primary-container': '#64000f', 'secondary-fixed': '#efdbff', 'on-tertiary-fixed-variant': '#6b3a18', 'primary': '#b32631', 'error': '#ba1a1a', 'on-tertiary-fixed': '#311300', 'surface-container-lowest': '#ffffff', 'on-error-container': '#93000a', 'on-error': '#ffffff', 'on-secondary-fixed-variant': '#6600b7', 'secondary-fixed-dim': '#dbb8ff', 'inverse-surface': '#342e39', 'outline': '#8d706f', 'tertiary-fixed': '#ffdbc8', 'tertiary': '#87512d', 'surface-variant': '#e9dfed', 'inverse-on-surface': '#f8edfc', 'outline-variant': '#e1bebd', 'error-container': '#ffdad6', 'on-secondary-container': '#fffbff', 'on-surface': '#1f1a24', 'inverse-primary': '#ffb3b0', 'primary-fixed': '#ffdad8', 'primary-container': '#ff5e62', 'surface-tint': '#b32631', 'surface-container-low': '#fbf0ff', 'on-primary': '#ffffff', 'tertiary-fixed-dim': '#feb78b', 'on-primary-fixed': '#410007', 'tertiary-container': '#c6875e', 'secondary-container': '#974ce9', 'on-secondary': '#ffffff', 'surface-container-high': '#efe5f3', 'on-tertiary-container': '#4c2203', 'secondary': '#7d2dce', 'surface-container': '#f5eaf9' }, borderRadius: { DEFAULT: '1rem', lg: '2rem', xl: '3rem', full: '9999px' }, spacing: { 'space-sm': '0.5rem', 'margin-tablet': '2rem', 'space-md': '1rem', 'space-xs': '0.25rem', 'space-lg': '1.5rem', 'margin-desktop': '3rem', 'gutter-desktop': '2rem', 'space-xl': '2.5rem', 'gutter': '1.25rem', 'margin': '1rem' }, fontFamily: { 'headline-lg-mobile': ['Plus Jakarta Sans'], 'headline-lg': ['Plus Jakarta Sans'], 'headline-sm': ['Plus Jakarta Sans'], 'headline-md': ['Plus Jakarta Sans'], 'label-md': ['Plus Jakarta Sans'], 'label-lg': ['Plus Jakarta Sans'], 'body-md': ['Inter'], 'display-hero-mobile': ['Plus Jakarta Sans'], 'label-sm': ['Plus Jakarta Sans'], 'body-lg': ['Inter'], 'body-sm': ['Inter'], 'display-hero': ['Plus Jakarta Sans'] }, fontSize: { 'headline-lg-mobile': ['28px', { lineHeight: '36px', letterSpacing: '-0.015em', fontWeight: '700' }], 'headline-lg': ['36px', { lineHeight: '44px', letterSpacing: '-0.02em', fontWeight: '700' }], 'headline-sm': ['20px', { lineHeight: '28px', letterSpacing: '0em', fontWeight: '600' }], 'headline-md': ['24px', { lineHeight: '32px', letterSpacing: '-0.01em', fontWeight: '700' }], 'label-md': ['13px', { lineHeight: '16px', letterSpacing: '0.02em', fontWeight: '600' }], 'label-lg': ['16px', { lineHeight: '20px', letterSpacing: '0.01em', fontWeight: '700' }], 'body-md': ['15px', { lineHeight: '24px', letterSpacing: '0em', fontWeight: '400' }], 'display-hero-mobile': ['38px', { lineHeight: '44px', letterSpacing: '-0.025em', fontWeight: '800' }], 'label-sm': ['11px', { lineHeight: '14px', letterSpacing: '0.04em', fontWeight: '700' }], 'body-lg': ['18px', { lineHeight: '28px', letterSpacing: '-0.01em', fontWeight: '400' }], 'body-sm': ['13px', { lineHeight: '18px', letterSpacing: '0em', fontWeight: '400' }], 'display-hero': ['56px', { lineHeight: '64px', letterSpacing: '-0.03em', fontWeight: '800' }] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_4px_20px_-2px_rgba(121,40,202,0.06)]"><div class="h-20 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Match Deck Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1USrqIZVGotBHR5T8FCUy0Ob4NtNKkMTSYq8kaRDLBdnYDYWLGeHYHSCfBWu9oJVR5I7WzTH2VosdEQUm2qTeklMrqEEftaN682JXJAQ9kdtoDZ19LH01CBISFUqUW3kIfcCdQbaygjW4fucDvoOjinLF24zpDv7IRk48LEk9AVwnzubqJhmGUrCBwF2TLLmocRRmh8nLn-fpqUNwsB-JlsXiAiZj5ze73_H8Rkf9KRjPm-mQ6VzceKxg"/><div class="flex flex-col min-w-0"><div class="flex items-center gap-space-xs"><span class="font-label-lg text-label-lg text-on-surface truncate">Mateo • Pitch Deck</span><span class="hidden">Pitch Deck Principal</span></div><div class="flex items-center mt-0.5"><span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed text-[10px] font-bold tracking-tight whitespace-nowrap">Buscando novia oficial 💘</span></div></div></div><a class="flex-shrink-0 min-w-[44px] min-h-[44px] flex items-center justify-center" data-path="perfil-completo" href="#"><div class="relative p-0.5 rounded-full bg-gradient-to-tr from-primary-container to-secondary-container"><img alt="Profile" class="w-8 h-8 rounded-full object-cover block" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBB-JZ9q7IaAsk5wtNUs5SnuOflVmHZxBSKA_kcYM5Y-48VOfymL7AO5d7_21qOg8Zyms7zJMK2KwyKcLzNc8QYfStMBIF-njHtpYfx1V1DYDMr4GLQdyiqnw6M6qjjbOjE_BzBwTeZO3eYgVYD_gp1d3rJBMlyQqhZAGaR1_bFuWvQT687GD3Y2m8_hNCWLebowsgkGS0ZY6MwZYVi4T7Zb87_R5RgK-Z1SMuqxlvmm15Pvp1MBf0"/></div></a></div></header><main class="flex flex-col relative w-full pt-20 pb-28 bg-surface px-margin min-h-screen"><div class="flex flex-col w-full max-w-[480px] mx-auto space-y-5">
+<div class="relative w-full rounded-2xl overflow-hidden shadow-[0_12px_36px_rgba(121,40,202,0.12)] bg-surface-container-lowest">
+<div class="relative aspect-[4/5] w-full">
+<img alt="Mateo sonriendo con un café de especialidad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmmuZwnAQSZOL-fRJrLS7OCGyBOGhtEYAp2OUUS5iR2RNwKM7fz3olXPDkKOHrLGhnyj1srV0csowvcTvnE0BR2xEY4a0-bMuynIeuLoyQRu56wZ024uvRlHOIy8sOotEPQun14SOh05rO-YRaOb6Ddv40TofVjDsA5HUoGVzHRbonZG-NSOUt6X55OUQ9U1jdAcJJUDYTzBmHXWFBuc1jTqy4BFXjtEhc1uRdO4fsTHTnIDFTHlk"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface via-inverse-surface/30 to-transparent"></div>
+<div class="absolute top-4 left-4 flex flex-wrap gap-2 items-center">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm shadow-sm">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+          Oferta por tiempo limitado ✨
+        </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-fixed/90 backdrop-blur-md text-on-secondary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">verified</span> 28 años
+        </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 text-on-primary">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm mb-2 shadow-sm">
+          SERIE A: SEED ROUND DE AMOR 🚀
+        </div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-inverse-on-surface leading-tight">
+          ¿Por qué deberías ser mi novia?
+        </h1>
+<p class="font-body-md text-body-md text-inverse-on-surface/90 mt-1">
+          Una presentación ejecutiva para una vacante de alta prioridad.
+        </p>
+</div>
+</div>
+<div class="p-4 bg-surface-container-low flex items-center justify-between gap-2">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[18px]">trending_up</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Inversión inicial</p>
+<p class="font-label-lg text-label-lg text-on-surface">0€ + tu presencia</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">ROI Garantizado</p>
+<p class="font-label-lg text-label-lg text-primary truncate max-w-[170px]">Risas &amp; Cenas ricas 🍝</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between px-1">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">insights</span>
+        Métricas Clave &amp; Tracción
+      </h2>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed px-2 py-0.5 rounded-full">KPIs 2025</span>
+</div>
+<div class="grid grid-cols-3 gap-2">
+<div class="p-3 rounded-2xl bg-surface-container-lowest shadow-[0_4px_16px_rgba(121,40,202,0.06)] flex flex-col items-center text-center">
+<div class="w-10 h-10 rounded-full bg-error-container text-on-error-container flex items-center justify-center mb-2">
+<span class="material-symbols-outlined text-[22px]">diversity_1</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-primary">10/10</p>
+<p class="font-label-sm text-label-sm text-on-surface mt-0.5">Puntaje Abrazos</p>
+<span class="text-[11px] text-on-surface-variant mt-1">Calidez ergonómica</span>
+</div>
+<div class="p-3 rounded-2xl bg-surface-container-lowest shadow-[0_4px_16px_rgba(121,40,202,0.06)] flex flex-col items-center text-center">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center mb-2">
+<span class="material-symbols-outlined text-[22px]">restaurant</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-tertiary">Pastas &amp; Tacos</p>
+<p class="font-label-sm text-label-sm text-on-surface mt-0.5">Cocinero Top</p>
+<span class="text-[11px] text-on-surface-variant mt-1">Salsas artesanales</span>
+</div>
+<div class="p-3 rounded-2xl bg-surface-container-lowest shadow-[0_4px_16px_rgba(121,40,202,0.06)] flex flex-col items-center text-center">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center mb-2">
+<span class="material-symbols-outlined text-[22px]">tv</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-secondary">Experto</p>
+<p class="font-label-sm text-label-sm text-on-surface mt-0.5">Paciencia Series</p>
+<span class="text-[11px] text-on-surface-variant mt-1">Cero spoilers</span>
+</div>
+</div>
+</div>
+<div class="rounded-2xl p-4 bg-surface-container-lowest shadow-[0_6px_24px_rgba(121,40,202,0.07)] space-y-4">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary">balance</span>
+        Análisis de Viabilidad: Pros y Contras
+      </h2>
+</div>
+<div class="space-y-2.5">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">
+          VENTAJAS COMPETITIVAS (PROS)
+        </span>
+</div>
+<div class="space-y-2">
+<div class="p-3 rounded-xl bg-surface-container-low flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center flex-shrink-0 text-[14px]">
+<span class="material-symbols-outlined text-[16px]">photo_camera</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Fotógrafo personal aesthetic</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sé buscar tus mejores ángulos, cuidar la luz natural y esperar pacientemente hasta lograr la toma perfecta para Instagram.</p>
+</div>
+</div>
+<div class="p-3 rounded-xl bg-surface-container-low flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center flex-shrink-0 text-[14px]">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Tiempo de respuesta: &lt; 2 min</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tasa de respuesta ultrarrápida. La única excepción certificada es si estoy durmiendo o cocinando pasta al dente.</p>
+</div>
+</div>
+<div class="p-3 rounded-xl bg-surface-container-low flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center flex-shrink-0 text-[14px]">
+<span class="material-symbols-outlined text-[16px]">pets</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Garantía canina inmediata</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mi perro te va a amar desde el minuto uno. Es el mejor detector de vibra positiva de la ciudad.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="space-y-2.5 pt-2">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+          RIESGOS ASUMIBLES (CONTRAS)
+        </span>
+</div>
+<div class="space-y-2">
+<div class="p-3 rounded-xl bg-surface-container flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-secondary text-on-secondary flex items-center justify-center flex-shrink-0 text-[14px]">
+<span class="material-symbols-outlined text-[16px]">music_note</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Playlist nostálgica en carretera</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pongo pop/rock de los 2000s y canto las partes en coro con pasión desmedida en los semáforos.</p>
+</div>
+</div>
+<div class="p-3 rounded-xl bg-surface-container flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-secondary text-on-secondary flex items-center justify-center flex-shrink-0 text-[14px]">
+<span class="material-symbols-outlined text-[16px]">record_voice_over</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Storytelling demasiado inmersivo</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Hago efectos de sonido y voces de personajes al contarte anécdotas cotidianas de mi día.</p>
+</div>
+</div>
+<div class="p-3 rounded-xl bg-surface-container flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-secondary text-on-secondary flex items-center justify-center flex-shrink-0 text-[14px]">
+<span class="material-symbols-outlined text-[16px]">oil_barrel</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Snacks de cine: Protocolo diplomático</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">La combinación de palomitas dulces con saladas y gomitas ácidas requiere al menos 6 minutos de deliberación.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="relative rounded-2xl overflow-hidden bg-surface-container-lowest shadow-[0_8px_30px_rgba(121,40,202,0.08)]">
+<div class="relative aspect-[4/3] w-full">
+<img alt="Mateo y su perro riendo felices en un parque" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7E-88FsgTv-YdmeCFtWbnWmkB06dGjn0zzNo_tQeO6UJEzgjI7gn79XMG6nxpyG5iyMJJmYgczzmm6HMxNuN1hNkTuHNx_HEEP2LOWD4ogt664DTMvusvS-UCZSMRd_VCautm40u0HU5v8cQOSuRWm0399aPAUu1qHX3MZi_PUTFhN2-bq5BoduTZ3qB0GYI-smoP2eIolP6pWh-LOZiSKC9M7zH5h1tUwv-STasXvNnsGw-boPw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-on-primary">
+<div class="flex items-center gap-2">
+<span class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+</span>
+<span class="font-label-lg text-label-lg font-bold">Aprobado por el comité canino 🐶</span>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container-lowest/80 backdrop-blur-md text-on-surface px-2.5 py-1 rounded-full">
+          Auditoría 100% OK
+        </span>
+</div>
+</div>
+<div class="p-3.5 bg-surface-container-low text-center">
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+        "Toby ya dio luz verde. Ahora la pelota de tenis está en tu cancha."
+      </p>
+</div>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between px-1">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+        Muro de Reseñas Verificadas
+      </h2>
+<span class="font-label-sm text-label-sm text-primary font-bold">4.9 ★ Rating</span>
+</div>
+<div class="space-y-2.5">
+<div class="p-4 rounded-2xl bg-surface-container-lowest shadow-[0_4px_20px_rgba(121,40,202,0.06)] space-y-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center font-bold">
+              M
+            </div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface leading-tight">Mamá de Mateo</p>
+<p class="text-[11px] text-on-surface-variant">Inversora ángel fundadora</p>
+</div>
+</div>
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+          "El chico más guapo, educado y trabajador del planeta (opinión 100% objetiva y respaldada por datos maternales)."
+        </p>
+</div>
+<div class="p-4 rounded-2xl bg-surface-container-lowest shadow-[0_4px_20px_rgba(121,40,202,0.06)] space-y-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold">
+              C
+            </div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface leading-tight">Carlos</p>
+<p class="text-[11px] text-on-surface-variant">Mejor amigo (12 años de track record)</p>
+</div>
+</div>
+<div class="flex items-center gap-1">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]">star_half</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface">4.8</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+          "Le quito 0.2 estrellas porque siempre dice que no tiene hambre y se come la mitad de mis papas fritas. Pero como novio es un 10 rotundo: fiel, leal y divertido."
+        </p>
+</div>
+<div class="p-4 rounded-2xl bg-surface-container-lowest shadow-[0_4px_20px_rgba(121,40,202,0.06)] space-y-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center font-bold">
+              S
+            </div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface leading-tight">Sofía</p>
+<p class="text-[11px] text-on-surface-variant">Compañera de trabajo</p>
+</div>
+</div>
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+          "Puntual, huele siempre rico, sabe escuchar de verdad cuando tienes un mal día y prepara el café de la oficina con nivel barista."
+        </p>
+</div>
+</div>
+</div>
+<div class="p-4 rounded-2xl bg-surface-container-lowest shadow-[0_6px_24px_rgba(121,40,202,0.06)] space-y-3">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary">help</span>
+      Preguntas Frecuentes (FAQ de Citas)
+    </h2>
+<div class="space-y-2">
+<details class="group rounded-xl bg-surface-container-low p-3 transition-colors open:bg-surface-container">
+<summary class="font-label-lg text-label-lg text-on-surface list-none flex justify-between items-center cursor-pointer">
+<span>¿Quién paga la primera cuenta?</span>
+<span class="material-symbols-outlined text-[20px] text-primary transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 pt-2">
+          Yo invito la primera ronda sin dudarlo. Aunque si insistes en pagar el postre o el helado artesanal posterior, gano puntos de admiración mutua.
+        </p>
+</details>
+<details class="group rounded-xl bg-surface-container-low p-3 transition-colors open:bg-surface-container" open="">
+<summary class="font-label-lg text-label-lg text-on-surface list-none flex justify-between items-center cursor-pointer">
+<span>¿Qué incluye el paquete 'Primera Cita'?</span>
+<span class="material-symbols-outlined text-[20px] text-primary transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-2 pt-2 space-y-1.5">
+<p>Dos opciones personalizables según tu vibra:</p>
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">local_cafe</span>
+<span><strong>Plan A:</strong> Café de especialidad + caminata relajada con helado.</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">local_bar</span>
+<span><strong>Plan B:</strong> Drinks de autor en una terraza con música chill.</span>
+</div>
+</div>
+</details>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-2xl p-5 bg-gradient-to-br from-primary via-primary-container to-secondary-container text-on-primary shadow-[0_12px_32px_rgba(255,94,98,0.35)] text-center space-y-4">
+<div class="space-y-1">
+<span class="inline-block px-3 py-1 rounded-full bg-surface-container-lowest/20 backdrop-blur-md text-on-primary font-label-sm text-label-sm uppercase tracking-wide">
+        Plazas vacantes: 1 de 1
+      </span>
+<h3 class="font-headline-md text-headline-md font-bold text-on-primary">
+        ¿Te animas a comprobar el pitch deck?
+      </h3>
+<p class="font-body-sm text-body-sm text-on-primary/90 max-w-xs mx-auto">
+        Sin contratos forzosos. Cancelación gratis si no nos reímos en los primeros 15 minutos.
+      </p>
+</div>
+<div class="space-y-2.5 pt-1">
+<button class="w-full py-3.5 px-4 rounded-full bg-surface-container-lowest text-primary font-label-lg text-label-lg shadow-lg hover:shadow-xl active:scale-[0.98] transition-all flex items-center justify-center gap-2" id="postulate-btn" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span>Enviar mi postulación para cita</span>
+</button>
+<div class="flex items-center justify-center gap-3 pt-1">
+<a class="px-4 py-2 rounded-full bg-surface-container-lowest/20 hover:bg-surface-container-lowest/30 backdrop-blur-md text-on-primary font-label-sm text-label-sm flex items-center gap-1.5 transition-colors" data-path="contacto-whatsapp" href="#">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+          WhatsApp Directo
+        </a>
+<a class="px-4 py-2 rounded-full bg-surface-container-lowest/20 hover:bg-surface-container-lowest/30 backdrop-blur-md text-on-primary font-label-sm text-label-sm flex items-center gap-1.5 transition-colors" data-path="contacto-instagram" href="#">
+<span class="material-symbols-outlined text-[16px]">photo_camera</span>
+          Instagram DM
+        </a>
+</div>
+</div>
+<div class="hidden p-3 rounded-xl bg-surface-container-lowest text-on-surface shadow-xl text-left flex items-center gap-3" id="toast-success">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[18px]">done_all</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface">¡Postulación recibida con éxito!</p>
+<p class="text-[12px] text-on-surface-variant">Mateo está revisando tu perfil con entusiasmo.</p>
+</div>
+</div>
+</div>
+<div class="text-center py-2">
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+      Hecho con cariño, humor y café para Mateo © 2025
+    </p>
+</div>
+</div>
+<script>
+  (function() {
+    const btn = document.getElementById('postulate-btn');
+    const toast = document.getElementById('toast-success');
+    if (btn && toast) {
+      btn.addEventListener('click', function() {
+        btn.disabled = true;
+        btn.classList.add('opacity-80');
+        btn.innerHTML = '<span class="material-symbols-outlined text-[20px] animate-spin">progress_activity</span><span>Enviando match...</span>';
+        setTimeout(function() {
+          btn.classList.add('hidden');
+          toast.classList.remove('hidden');
+        }, 800);
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-8px_30px_rgba(121,40,202,0.08)]" data-active-classes="text-primary font-bold"><div class="h-20 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs flex-shrink-0"><a aria-label="WhatsApp" class="min-w-[44px] min-h-[44px] w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:text-primary transition-colors" data-path="contacto-whatsapp" href="#"><span class="material-symbols-outlined text-[20px]">chat</span></a><a aria-label="Instagram" class="min-w-[44px] min-h-[44px] w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:text-secondary transition-colors" data-path="contacto-instagram" href="#"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><a aria-label="Referencias" class="min-w-[44px] min-h-[44px] w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:text-tertiary transition-colors" data-path="referencias-amigos" href="#"><span class="material-symbols-outlined text-[20px]">reviews</span></a></div><a class="flex-1 min-h-[44px] h-12 px-space-md rounded-full bg-gradient-to-r from-primary-container to-secondary-container text-on-primary flex items-center justify-center gap-2 font-label-lg text-label-lg shadow-[0_8px_24px_rgba(255,94,98,0.35)] active:scale-95 transition-all text-center" data-path="postularme-cita" href="#"><span class="material-symbols-outlined text-[18px]">favorite</span><span class="truncate">¡Postularme a una cita!</span></a></div></nav></body></html>
