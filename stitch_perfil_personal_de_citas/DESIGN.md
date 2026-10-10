@@ -1,53 +1,53 @@
 ---
-name: Warm Charisma
+name: Vibrant Purple & Emerald Green
 colors:
-  surface: '#fff7ff'
-  surface-dim: '#e1d7e5'
-  surface-bright: '#fff7ff'
+  surface: '#faf7fd'
+  surface-dim: '#e2d9eb'
+  surface-bright: '#faf7fd'
   surface-container-lowest: '#ffffff'
-  surface-container-low: '#fbf0ff'
-  surface-container: '#f5eaf9'
-  surface-container-high: '#efe5f3'
-  surface-container-highest: '#e9dfed'
-  on-surface: '#1f1a24'
-  on-surface-variant: '#594040'
-  inverse-surface: '#342e39'
-  inverse-on-surface: '#f8edfc'
-  outline: '#8d706f'
-  outline-variant: '#e1bebd'
-  surface-tint: '#b32631'
-  primary: '#b32631'
+  surface-container-low: '#f7f2fa'
+  surface-container: '#f3edf7'
+  surface-container-high: '#ece6f0'
+  surface-container-highest: '#e8def8'
+  on-surface: '#1c1b1f'
+  on-surface-variant: '#49454f'
+  inverse-surface: '#312e35'
+  inverse-on-surface: '#f4eff4'
+  outline: '#79747e'
+  outline-variant: '#c4c7c5'
+  surface-tint: '#7c3aed'
+  primary: '#7c3aed'
   on-primary: '#ffffff'
-  primary-container: '#ff5e62'
-  on-primary-container: '#64000f'
-  inverse-primary: '#ffb3b0'
-  secondary: '#7d2dce'
+  primary-container: '#9333ea'
+  on-primary-container: '#ffffff'
+  inverse-primary: '#d8b4fe'
+  secondary: '#10b981'
   on-secondary: '#ffffff'
-  secondary-container: '#974ce9'
-  on-secondary-container: '#fffbff'
-  tertiary: '#87512d'
+  secondary-container: '#059669'
+  on-secondary-container: '#ffffff'
+  tertiary: '#84cc16'
   on-tertiary: '#ffffff'
-  tertiary-container: '#c6875e'
-  on-tertiary-container: '#4c2203'
+  tertiary-container: '#65a30d'
+  on-tertiary-container: '#ffffff'
   error: '#ba1a1a'
   on-error: '#ffffff'
   error-container: '#ffdad6'
   on-error-container: '#93000a'
-  primary-fixed: '#ffdad8'
-  primary-fixed-dim: '#ffb3b0'
-  on-primary-fixed: '#410007'
-  on-primary-fixed-variant: '#91061d'
-  secondary-fixed: '#efdbff'
-  secondary-fixed-dim: '#dbb8ff'
-  on-secondary-fixed: '#2b0052'
-  on-secondary-fixed-variant: '#6600b7'
-  tertiary-fixed: '#ffdbc8'
-  tertiary-fixed-dim: '#feb78b'
-  on-tertiary-fixed: '#311300'
-  on-tertiary-fixed-variant: '#6b3a18'
-  background: '#fff7ff'
-  on-background: '#1f1a24'
-  surface-variant: '#e9dfed'
+  primary-fixed: '#f3e8ff'
+  primary-fixed-dim: '#d8b4fe'
+  on-primary-fixed: '#3b0764'
+  on-primary-fixed-variant: '#581c87'
+  secondary-fixed: '#d1fae5'
+  secondary-fixed-dim: '#6ee7b7'
+  on-secondary-fixed: '#064e3b'
+  on-secondary-fixed-variant: '#047857'
+  tertiary-fixed: '#ecfccb'
+  tertiary-fixed-dim: '#bef264'
+  on-tertiary-fixed: '#1a2e05'
+  on-tertiary-fixed-variant: '#3f6212'
+  background: '#faf7fd'
+  on-background: '#1c1b1f'
+  surface-variant: '#e8def8'
 typography:
   display-hero:
     fontFamily: Plus Jakarta Sans
@@ -142,72 +142,14 @@ spacing:
 ---
 
 ## Brand & Style
-This design system pairs the dynamism of a high-converting personal pitch deck with the intimacy and authenticity of modern social dating. The voice is witty, confident, and genuine. 
+This design system pairs the dynamism of a high-converting personal pitch deck with the vibrancy of purple and emerald green tones, featuring light and dark mode toggling.
 
-The aesthetic fuses **Tactile Modernism** with **Frosted Glassmorphism**:
-- Soft, pill-driven structural contours balance high-velocity readability with approachable tactility.
-- Vibrant warm gradients convey heat and chemistry, while structured typography keeps content grounded, intentional, and readable.
-- Translucent backdrop blurs layered over vibrant chromatic glows give the impression of physical cards resting in ambient light.
-- Micro-details prioritize personality: sticker-like flair badges, conversational prompt callouts, and expressive visual chips.
+- **Vibrant Purple & Emerald Palette:** Rich violets, purples, and deep emerald/lime greens create high contrast, energy, and charm.
+- **Dark Mode Support:** Fully adapted dark mode with deep violet-black background (`#0f0b15`), dark purple surfaces, and glowing emerald accents.
+- **Glassmorphism & Gradients:** Multi-color linear gradients from Purple to Emerald Green (`from-purple-600 via-violet-600 to-emerald-500`), ambient background glows, and frosted glass navigation bar.
 
 ## Colors
-The palette captures warmth, electric attraction, and deep emotional resonance.
-
-- **Primary (`#FF5E62` - Electric Coral / Warm Rose):** The core heartbeat of the brand. Used for high-intent primary CTA buttons, active state indicators, key metrics, and hero visual fills.
-- **Secondary (`#7928CA` - Deep Violet):** Provides grounding depth, mystery, and high-contrast accents. Used for badge borders, secondary chips, pill tags, and dynamic typography accents.
-- **Tertiary (`#FFB88C` - Soft Peach):** Softens the visual intensity. Used for high-energy tag backgrounds, subtle tinted container fills, prompt response bubbles, and gradient stops.
-- **Neutral (`#1F1A24` - Velvet Obsidian):** A dark plum-black providing contrast without the harshness of pure black. Used for display typography, heavy titles, and strong borders.
-
-### Surface Tones & Gradients
-- **Canvas Base:** `#FFF9F8` (Warm alabaster tone).
-- **Surface Elevation 1 (Card Neutral):** `#FFFFFF` with 70–90% opacity over vibrant gradient blurs.
-- **Surface Elevation 2 (Highlight Containers):** `#FFF1ED` with soft warm pink tint.
-- **Signature Gradient:** Linear gradient from `#FF5E62` (Electric Coral) through `#FF8B7A` to `#7928CA` (Deep Violet) at a 135-degree angle for hero buttons and prominent callout badges.
-
-## Typography
-Typographic rhythm sets the pitch tone: punchy headers command attention with Plus Jakarta Sans, while Inter ensures comfortable readability for quick-fire profile prompts and witty bios.
-
-- **Headlines & Display:** Plus Jakarta Sans delivers a friendly, contemporary geometry with rounded terminals and tight tracking. Use tight negative letter-spacing for large sizes (`-0.03em`) to enhance cohesion.
-- **Body & Longform:** Inter provides neutral clarity. It handles prompt snippets, user quotes, and conversational bullet points with high x-height and open apertures.
-- **Labels & Tags:** Plus Jakarta Sans set in medium-to-bold weights gives pill tags, sticker badges, and micro-stat counters an energetic, branded silhouette.
-
-## Layout & Spacing
-A fluid 4-column layout on mobile scales to 8 columns on tablet and 12 columns on desktop, anchored by an optimal mobile-first maximum container width of `480px` for pitch profile flows and `1140px` for wide deck sections.
-
-- **Mobile (<768px):** Profiles render as high-impact vertical card stacks. Gutters are fixed to `1.25rem` (`20px`) with edge margins of `1rem` (`16px`). Single-column card flow prevents horizontal micro-overflows.
-- **Tablet (768px - 1024px):** Reflows into a 2-column asymmetric split deck: left column contains the sticky user snapshot and high-level pitch; right column contains dynamic prompt cards and references.
-- **Desktop (>1024px):** Centers the interactive mobile viewport (app simulation mode) alongside expanded supporting evidence cards (e.g., "The Friends' Endorsement", "Spotify Compatibility", "First Date Itinerary").
-
-## Elevation & Depth
-Elevation mimics stacked physical polaroids and translucent frosted cards resting on an ambient warm canvas.
-
-- **Base Ambient Shadow:** Shadows never use pure black. Every shadow is tinted with `#7928CA` (Deep Violet) at 6% to 12% opacity with wide blur spreads (`0 8px 30px -4px rgba(121, 40, 202, 0.08)`).
-- **Interactive Hover Shadow:** On active engagement or hover, cards lift subtly (`transform: translateY(-3px)`) while shadow spread expands with coral tint (`0 14px 34px -2px rgba(255, 94, 98, 0.16)`).
-- **Glassmorphic Tiers:** Translucent floaters use `rgba(255, 255, 255, 0.82)` with `backdrop-filter: blur(16px)` and a subtle light-facing rim border: `1px solid rgba(255, 255, 255, 0.7)`.
-- **Card Depth Stacking:** Profile visual layers utilize overlapping offsets (z-index shifts combined with slight rotational offsets of `-1deg` to `+1.5deg`) to create an authentic tactile desk feel.
-
-## Shapes
-A pill-shaped profile language (`roundedness: 3`) reinforces friendliness, optimism, and approachable tactile play.
-
-- **Primary Cards & Containers:** Standardized with `rounded-xl` (`2rem` / `32px` on desktop, `1.5rem` / `24px` on mobile) to produce soft photo frames.
-- **Buttons & Tags:** Strictly pill-shaped (`border-radius: 9999px`) to invite touch interactions.
-- **Prompt Text Bubbles:** Asymmetric rounding (e.g., `rounded-2xl` with bottom-left corner tightened to `0.5rem`) replicates native chat bubbles.
-
-## Components
-
-### Buttons
-- **Primary Action ("Send a Match" / "Apply to Date"):** Full pill (`9999px`), gradient background (`#FF5E62` to `#FF8B7A`), white text, bold label typography (`label-lg`). Box shadow: `0 8px 24px rgba(255, 94, 98, 0.35)`. Subtle spring scale effect on tap (`scale: 0.97`).
-- **Secondary Action ("Check References" / "View Schedule"):** Transparent background with `1.5px` border in `#7928CA`, text in `#7928CA`, pill-shaped with soft violet hover tint (`rgba(121, 40, 202, 0.05)`).
-- **Floating Match Tray:** Sticky bottom sheet with glassmorphic background (`backdrop-filter: blur(20px)`), containing a single prominent action and two micro-actions (heart, question prompt).
-
-### Badges & Pill Tags
-- **Personality Tags ("Morning Coffee Snob", "Golden Retriever Energy"):** Micro pill shape (`rounded-full`), padding `6px 14px`. Soft peach background (`#FFF1ED`), coral text (`#FF5E62`), and `label-sm` typography.
-- **Verification & Status Badges:** Circular or pill chip, soft violet base (`rgba(121, 40, 202, 0.1)`), deep violet icon/text with subtle neon micro-glow.
-
-### Prompt Cards & Testimonials
-- **The "Pitch Prompt" Card:** Pure white surface (`#FFFFFF`), `24px` inner padding, `rounded-xl` geometry, warm tinted shadow. Features a subtle colored left indicator or category pill followed by a bold italicized prompt title (`headline-sm`) and conversational body copy (`body-md`).
-- **Reference / Endorsement Card:** Styled like a friendly sticky note or polaroid with high-impact micro-avatars, quotes, and star/heart ratings in electric coral.
-
-### Form Inputs & Polls
-- **Interactive Quick-Votes ("Green Flag or Red Flag?"):** Dual-pill layout allowing visitors to vote. Default state: off-white fill with light-coral border. Active state: solid coral fill with white typography and spring micro-animation.
-- **Date Invite Input:** Pill-shaped input container, `#FFFFFF` surface with `1.5px` warm neutral border (`rgba(31, 26, 36, 0.1)`), shifting to coral border focus with `0 0 0 4px rgba(255, 94, 98, 0.15)`.
+- **Primary (`#7C3AED` - Royal Violet):** Core primary buttons, active highlights, key statistics, and main title accents.
+- **Secondary (`#10B981` - Vibrant Emerald):** Badges, positive tags, metrics, and secondary callouts.
+- **Tertiary (`#84CC16` - Electric Lime):** Vivid accent highlights, rating stars, and interactive chips.
+- **Dark Background (`#0F0B15` - Dark Violet Obsidian):** Deep dark mode canvas base.
